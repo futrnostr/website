@@ -1,0 +1,102 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title futr nostr
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Bootstrap icons
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css', rel='stylesheet')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body
+
+        // Responsive navbar
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+            .container.px-lg-5
+                a.navbar-brand(href='#!') futr nostr
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarSupportedContent.collapse.navbar-collapse
+                    ul.navbar-nav.ms-auto.mb-2.mb-lg-0
+                        li.nav-item
+                            a.nav-link.active(aria-current='page', href='#!') Home
+                        li.nav-item
+                            a.nav-link(href='#!') About
+        // Header
+        header.py-5
+            .container.px-lg-5
+                .p-4.p-lg-5.bg-light.rounded-3.text-center
+                    .m-4.m-lg-5
+                        h1.display-5.fw-bold Welcome to Futr
+                        p.fs-4
+                            | Your gateway to the future - global, decentralized, censorship-resistant
+
+        // Page Content
+        section.pt-4
+            .container.px-lg-5
+                // Page Features
+                .row.gx-lg-5
+                    .col-lg-6.col-xxl-4.mb-5
+                        .card.bg-light.border-0.h-100
+                            .card-body.text-center.p-4.p-lg-5.pt-0.pt-lg-0
+                                .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-4.mt-n4
+                                    i.bi.bi-collection
+                                h2.fs-4.fw-bold Free and Open Source
+                                p.mb-0 Download and use our Nostr client for free. As an open-source project, you can explore and contribute to the code, ensuring transparency and community-driven improvements.
+                    .col-lg-6.col-xxl-4.mb-5
+                        .card.bg-light.border-0.h-100
+                            .card-body.text-center.p-4.p-lg-5.pt-0.pt-lg-0
+                                .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-4.mt-n4
+                                    i.bi.bi-cloud-download
+                                h2.fs-4.fw-bold What is Nostr?
+                                p.mb-0 Nostr is a decentralized protocol for private, censorship-resistant communication. It allows direct connections between users, ensuring your conversations are free from third-party interference.
+                    .col-lg-6.col-xxl-4.mb-5
+                        .card.bg-light.border-0.h-100
+                            .card-body.text-center.p-4.p-lg-5.pt-0.pt-lg-0
+                                .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-4.mt-n4
+                                    i.bi.bi-card-heading
+                                h2.fs-4.fw-bold Secure Group Chats
+                                p.mb-0 Create and join secure public and private groups with NIP-29 support. Enjoy end-to-end encryption for all your group conversations, keeping your chats confidential.
+                    .col-lg-6.col-xxl-4.mb-5
+                        .card.bg-light.border-0.h-100
+                            .card-body.text-center.p-4.p-lg-5.pt-0.pt-lg-0
+                                .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-4.mt-n4
+                                    i.bi.bi-bootstrap
+                                h2.fs-4.fw-bold Encrypted Messaging
+                                p.mb-0 All messages are encrypted to ensure privacy. Communicate securely, knowing that only your intended recipients can access your conversations.
+                    .col-lg-6.col-xxl-4.mb-5
+                        .card.bg-light.border-0.h-100
+                            .card-body.text-center.p-4.p-lg-5.pt-0.pt-lg-0
+                                .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-4.mt-n4
+                                    i.bi.bi-code
+                                h2.fs-4.fw-bold Voice and Video Calls
+                                p.mb-0 Make high-quality voice and video calls directly from the app. Stay connected with seamless multimedia interactions for both personal and professional use.
+                    .col-lg-6.col-xxl-4.mb-5
+                        .card.bg-light.border-0.h-100
+                            .card-body.text-center.p-4.p-lg-5.pt-0.pt-lg-0
+                                .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-4.mt-n4
+                                    i.bi.bi-patch-check
+                                h2.fs-4.fw-bold Cross-Platform Native App
+                                p.mb-0 Built with Haskell and Qt5, our client offers a native experience on Linux, Windows, macOS, Android, and iOS, providing optimal performance across all devices.
+
+        // Footer
+        footer.py-5.bg-dark
+            .container
+                p.m-0.text-center.text-white Copyright &copy; futrnostr.com 2024
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
