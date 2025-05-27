@@ -24,6 +24,9 @@ jobs:
     - name: Build project
       run: npm run build
 
+    - name: Copy CNAME file
+      run: cp CNAME dist/CNAME
+
     - name: Copy NIP-05 configuration
       run: mkdir -p dist/.well-known && cp .well-known/nostr.json dist/.well-known/nostr.json
 
