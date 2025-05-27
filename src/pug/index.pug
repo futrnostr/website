@@ -46,7 +46,7 @@ html(lang='en')
         section.py-4
             .container.px-lg-5
                 .text-center
-                    img.img-fluid.rounded(src='https://image.nostr.build/8f5e8a02465f0a9f01b68e2038a259867a7ac8fd4aa274463e8d047a36b188a5.png', alt='Futr Screenshot', style='max-width: 800px;')
+                    img.img-fluid.rounded(src='https://i.ibb.co/ZzmFh3K4/Screenshot-from-2025-05-27-19-40-10.png', alt='Futr Screenshot', style='max-width: 800px;')
 
         // Download Section
         section.pt-4
@@ -56,6 +56,16 @@ html(lang='en')
                 .card.bg-light.border-0.h-100
                     .card-body.text-center.p-4.p-lg-5
                         h2.fs-2.fw-bold.mb-4 Download Futr
+                        // Windows Download
+                        .text-start.mb-4
+                            h3.fs-4.fw-bold Windows Installation
+                            p.mb-3 Download the installer for Windows:
+                            .text-center
+                                a.btn.btn-primary.btn-lg(href='https://github.com/futrnostr/futr/releases/download/v0.3.0/futr-setup.exe', download='futr-setup.exe')
+                                    i.bi.bi-download.me-2
+                                    | Download Futr for Windows (v0.3.0)
+                            p.mt-3.text-muted.small Run the downloaded installer and follow the setup wizard to install Futr on your Windows system.
+                        
                         // Linux Download Instructions
                         .text-start.mb-4
                             h3.fs-4.fw-bold Linux Installation
